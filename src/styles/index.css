@@ -1,0 +1,16 @@
+/* src/index.css */
+
+/* 1. Import Tailwind’s base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Optionally import Bootstrap here */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css');
+
+/* 3. Include any global custom styles or overrides as needed */
+body {
+  font-family: 'Roboto', sans-serif; /* or default from Material UI */
+  margin: 0;
+  padding: 0;
+}
