@@ -1,10 +1,8 @@
-// src/pages/admin/ManageBillers.js
 import React from 'react';
 import Sidebar from '../../components/common/Sidebar';
 import { Link } from 'react-router-dom';
 
 const ManageBillers = () => {
-  // Hardcoded example data
   const billers = [
     { id: 1, name: 'Biller One', officeAddress: '123 Street' },
     { id: 2, name: 'Biller Two', officeAddress: '456 Avenue' },
