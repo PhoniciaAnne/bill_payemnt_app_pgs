@@ -1,4 +1,3 @@
-// src/pages/consumer/ConsumerBills.js
 import React from 'react';
 import Sidebar from '../../components/common/Sidebar';
 import { Link } from 'react-router-dom';
