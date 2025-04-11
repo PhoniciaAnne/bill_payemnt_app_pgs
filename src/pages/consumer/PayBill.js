@@ -1,4 +1,3 @@
-// src/pages/consumer/PayBill.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Sidebar from '../../components/common/Sidebar';
