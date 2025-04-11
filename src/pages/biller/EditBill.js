@@ -1,4 +1,3 @@
-// src/pages/biller/EditBill.js
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Sidebar from '../../components/common/Sidebar';
@@ -13,9 +12,7 @@ const EditBill = () => {
   });
 
   useEffect(() => {
-    // In a real scenario, fetch from an API, e.g.:
-    // fetch(`/api/bills/${billId}`).then(res => ...)
-    // We'll just hardcode sample data here
+    
     const fakeBill = {
       consumerName: 'Consumer A',
       amount: '400',
