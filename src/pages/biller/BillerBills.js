@@ -1,10 +1,8 @@
-// src/pages/biller/BillerBills.js
 import React from 'react';
 import Sidebar from '../../components/common/Sidebar';
 import { Link } from 'react-router-dom';
 
 const BillerBills = () => {
-  // Example bills
   const bills = [
     { id: 101, consumerName: 'Consumer One', amount: 500, status: 'Unpaid' },
     { id: 102, consumerName: 'Consumer Two', amount: 1200, status: 'Paid' },
