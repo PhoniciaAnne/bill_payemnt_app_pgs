@@ -1,10 +1,8 @@
-// src/pages/admin/ManageConsumers.js
 import React from 'react';
 import Sidebar from '../../components/common/Sidebar';
 import { Link } from 'react-router-dom';
 
 const ManageConsumers = () => {
-  // Hardcoded example data
   const consumers = [
     { id: 1, name: 'Consumer A', email: 'a@abc.com' },
     { id: 2, name: 'Consumer B', email: 'b@abc.com' },
