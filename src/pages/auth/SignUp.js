@@ -1,4 +1,3 @@
-// src/pages/auth/SignUp.js
 import React, { useState } from 'react';
 import { TextField, Button, Card, CardContent, Typography } from '@mui/material';
 
@@ -9,7 +8,6 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Typically you'd call an API to create a new user, etc.
     alert(`Signing up as ${role} with email: ${email}`);
   };
 
