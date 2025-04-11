@@ -1,4 +1,3 @@
-// src/components/common/Navbar.js
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Typography, Box } from '@mui/material';
 import { FiLogOut } from 'react-icons/fi';
