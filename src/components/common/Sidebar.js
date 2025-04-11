@@ -1,4 +1,3 @@
-// src/components/common/Sidebar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
@@ -6,12 +5,10 @@ import { useAuth } from '../../context/AuthContext';
 const Sidebar = () => {
   const { user } = useAuth();
 
-  // Fallback if no user is logged in
   if (!user) {
     return null;
   }
 
-  // We'll define separate menu configs for each role
   const menuItemsByRole = {
     admin: [
       { to: '/admin/dashboard', label: 'Admin Dashboard' },
@@ -29,7 +26,6 @@ const Sidebar = () => {
     ],
   };
 
-  // Grab the correct links array based on role
   const menuItems = menuItemsByRole[user.role] || [];
 
   return (
