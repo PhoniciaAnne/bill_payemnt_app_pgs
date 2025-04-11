@@ -1,4 +1,3 @@
-// src/pages/consumer/ConsumerDashboard.js
 import React from 'react';
 import Sidebar from '../../components/common/Sidebar';
 
