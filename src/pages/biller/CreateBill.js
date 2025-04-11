@@ -1,4 +1,3 @@
-// src/pages/biller/CreateBill.js
 import React, { useState } from 'react';
 import Sidebar from '../../components/common/Sidebar';
 
